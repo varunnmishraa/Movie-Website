@@ -1,0 +1,161 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+.header{
+    background-color:darkslategrey;
+    display: flex;
+    justify-content: space-between;                
+    width: 96vw;
+    padding: 2vw;
+
+    color: bisque;
+}
+#header-item{
+    margin-top: 2vw;
+}
+#menu-item{
+    margin: 2vw;
+    color: cornsilk;
+    text-decoration: cornsilk;
+    font-size: 1.2em
+}
+.dash-head{
+    padding-top: 1.5vw;
+    height: 4vw;
+    background-color: darkgray;
+}
+#menu-dash{
+    color: floralwhite;
+    text-decoration: floralwhite;
+    font-size: larger;
+    margin: 4vw;
+}
+.movie-list{
+    margin: 5vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.movie{
+    background-color: lightseagreen;
+    padding: 2vw;
+    color: lightskyblue;
+    text-align: center;
+}
+td{
+    color: lightyellow  ;
+    font-size: larger;
+}
+#edit-btn{
+    margin-top: 1vw;
+    height: 1.5vw;
+    width: 100%;
+}
+
+.movieList{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 2vw 15vh 2vw 15vh;
+}
+
+.movies{
+    align-items: center;    
+    height: 350px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.movie-details{
+    margin-top: 1vw;
+    text-align: center;
+    width: fit-content;
+    font-size: small;
+    line-height: 3vh;
+}
+
+#register-form{
+    display: flex;
+    flex-direction: column;
+    margin: 7vw;
+    text-align: center;
+    background-color: rgba(180, 0, 0, 0.5);
+    padding: 2vw;
+    color: bisque;
+
+}
+
+#login-form{
+    display: flex;
+    flex-direction: column;
+    margin: 7vw;
+    text-align: center;
+    background-color:rgba(180, 0, 0, 0.5);
+    padding: 2vw;
+    color: bisque;
+
+}
+
+.login-input{
+    align-self: center;
+    padding-left: 0.5vw;
+    height: 2vw;
+    margin: 0.5vw;
+    width: 300px;
+    border-style: solid;
+    border-width: 0.05vw;
+    border-color: rgb(250, 81, 3);   
+}
+
+button{
+    background-color: #ad0000;
+    color: #ffffff;
+}
+#book-movie {
+    padding: 2vw;
+    display: flex;
+    flex-direction: column;
+    margin: 5vw;
+    align-items: center;
+}
+#image-holder{
+    background-color: antiquewhite;
+    height: 20vw;
+    margin-right: 3vw;
+    width: 20vw;
+}
+.booking-input{
+    padding-left: 0.3vw;
+    width: 15vw;
+    height: 2vw;
+    border-style: solid;
+    border-width: 0.1vw;
+    border-color: #ad0000;
+    margin: 0.5vw;
+}
+.ticket{
+    background-color: burlywood;
+    margin: 2vw;
+    padding: 2vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+#image-id{
+    margin-right: 5vw;
+    width: 20vw;
+    height: 20vw;
+}
+#cancel-btn{
+    width: 15vw;
+    height: 2vw;
+    margin: 1vw;
+}
+
+#edit{
+    text-align: center;
+}
